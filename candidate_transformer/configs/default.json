@@ -23,12 +23,12 @@
     {
       "path": "location",
       "type": "object",
-      "required": true
+      "required": false
     },
     {
       "path": "links",
       "type": "list",
-      "required": true
+      "required": false
     },
     {
       "path": "headline",
@@ -37,23 +37,23 @@
     },
     {
       "path": "years_experience",
-      "type": "integer",
+      "type": "float",
       "required": false
     },
     {
       "path": "skills",
       "type": "list",
-      "required": true
+      "required": false
     },
     {
       "path": "experience",
       "type": "list",
-      "required": true
+      "required": false
     },
     {
       "path": "education",
       "type": "list",
-      "required": true
+      "required": false
     }
   ],
   "include_confidence": true,

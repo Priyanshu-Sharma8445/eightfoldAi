@@ -53,8 +53,8 @@ def load_config(config_path: str) -> RuntimeConfig:
 @app.post("/transform")
 async def transform(
     files: Optional[List[UploadFile]] = File(None),
-    csv: Optional[UploadFile] = File(None),
-    resume: Optional[UploadFile] = File(None),
+    csv: UploadFile = File(None),
+    resume: UploadFile = File(None),
     config_json: Optional[str] = Form(None)
 ):
     """

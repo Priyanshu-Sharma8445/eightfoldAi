@@ -78,6 +78,8 @@ Start the server.
 
 $env:PYTHONPATH="."; python app/main.py --server --host 127.0.0.1 --port 8000
 
+python -m uvicorn app.main:app --reload
+
 Open Swagger UI in your browser.
 
 http://127.0.0.1:8000/docs
