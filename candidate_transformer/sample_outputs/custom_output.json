@@ -1,10 +1,4 @@
-﻿2026-06-30 22:06:36,477 [INFO] app.pipeline.pipeline: Executing candidate transformation pipeline.
-2026-06-30 22:06:36,478 [INFO] app.pipeline.pipeline: Extracting structured CSV data from: sample.csv
-2026-06-30 22:06:36,481 [INFO] app.pipeline.pipeline: Extracting unstructured Resume TXT data from: resume.txt
-2026-06-30 22:06:36,485 [INFO] app.confidence: Confidence breakdown - Base: 0.95, Completeness: 1.00, Norm Rate: 1.00, Penalty: 0.25 -> Final: 0.7300
-2026-06-30 22:06:36,485 [INFO] app.validator: Projected JSON output validated successfully.
-2026-06-30 22:06:36,486 [INFO] app.pipeline.pipeline: Pipeline executed successfully.
-{
+﻿{
   "candidate_id": "cand_86e0b9e56c17",
   "name": "Jane Doe",
   "primary_email": "jane.doe@example.com",
