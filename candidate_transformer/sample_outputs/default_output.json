@@ -1,0 +1,233 @@
+﻿2026-06-30 22:06:35,622 [INFO] app.pipeline.pipeline: Executing candidate transformation pipeline.
+2026-06-30 22:06:35,622 [INFO] app.pipeline.pipeline: Extracting structured CSV data from: sample.csv
+2026-06-30 22:06:35,625 [INFO] app.pipeline.pipeline: Extracting unstructured Resume TXT data from: resume.txt
+2026-06-30 22:06:35,627 [INFO] app.confidence: Confidence breakdown - Base: 0.95, Completeness: 1.00, Norm Rate: 1.00, Penalty: 0.25 -> Final: 0.7300
+2026-06-30 22:06:35,628 [INFO] app.validator: Projected JSON output validated successfully.
+2026-06-30 22:06:35,628 [INFO] app.pipeline.pipeline: Pipeline executed successfully.
+{
+  "candidate_id": "cand_86e0b9e56c17",
+  "full_name": "Jane Doe",
+  "emails": [
+    "jane.doe@example.com",
+    "jane.doe.work@example.com"
+  ],
+  "phones": [
+    "+14155552671"
+  ],
+  "location": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "US"
+  },
+  "links": [
+    {
+      "category": "linkedin",
+      "url": "https://linkedin.com/in/janedoe"
+    },
+    {
+      "category": "github",
+      "url": "github.com/janedoe"
+    },
+    {
+      "category": "github",
+      "url": "https://github.com/janedoe"
+    },
+    {
+      "category": "linkedin",
+      "url": "www.linkedin.com/in/janedoe"
+    },
+    {
+      "category": "portfolio",
+      "url": "http://janedoe.me"
+    }
+  ],
+  "headline": "Lead Software Architect",
+  "years_experience": 8,
+  "skills": [
+    "Node.js",
+    "React",
+    "Python",
+    "AWS",
+    "Docker",
+    "Kubernetes",
+    "JavaScript",
+    "PostgreSQL"
+  ],
+  "experience": [
+    {
+      "job_title": "Senior Engineer",
+      "company": "Tech Corp",
+      "start_date": "2020-01",
+      "end_date": "2023-05",
+      "description": "Led backend services development."
+    },
+    {
+      "job_title": "Senior Software Engineer",
+      "company": "Tech Corp",
+      "start_date": "2020-01",
+      "end_date": "2023-05",
+      "description": "Developed scalable backend services and microservices.\nLed DevOps initiatives utilizing Kubernetes and Docker.\nSoftware Engineer at Web Systems"
+    },
+    {
+      "job_title": "Position",
+      "company": null,
+      "start_date": "2017-06",
+      "end_date": "2019-12",
+      "description": "Built front-end components using React.\nMaintained database systems running on PostgreSQL."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Stanford University",
+      "degree": "Master of Science",
+      "major": "Computer Science",
+      "start_date": "2018",
+      "end_date": "2019"
+    },
+    {
+      "institution": "Stanford University",
+      "degree": "Master of Science in Computer Science",
+      "major": null,
+      "start_date": "2018",
+      "end_date": "2019"
+    }
+  ],
+  "provenance": [
+    {
+      "field": "emails",
+      "source": "sample.csv",
+      "method": "extracted"
+    },
+    {
+      "field": "phones",
+      "source": "sample.csv",
+      "method": "extracted"
+    },
+    {
+      "field": "skills",
+      "source": "sample.csv",
+      "method": "extracted"
+    },
+    {
+      "field": "skills",
+      "source": "sample.csv",
+      "method": "extracted"
+    },
+    {
+      "field": "skills",
+      "source": "sample.csv",
+      "method": "extracted"
+    },
+    {
+      "field": "skills",
+      "source": "sample.csv",
+      "method": "extracted"
+    },
+    {
+      "field": "links",
+      "source": "sample.csv",
+      "method": "extracted"
+    },
+    {
+      "field": "links",
+      "source": "sample.csv",
+      "method": "extracted"
+    },
+    {
+      "field": "experience",
+      "source": "sample.csv",
+      "method": "extracted"
+    },
+    {
+      "field": "education",
+      "source": "sample.csv",
+      "method": "extracted"
+    },
+    {
+      "field": "emails",
+      "source": "resume.txt",
+      "method": "extracted"
+    },
+    {
+      "field": "skills",
+      "source": "resume.txt",
+      "method": "extracted"
+    },
+    {
+      "field": "skills",
+      "source": "resume.txt",
+      "method": "extracted"
+    },
+    {
+      "field": "skills",
+      "source": "resume.txt",
+      "method": "extracted"
+    },
+    {
+      "field": "skills",
+      "source": "resume.txt",
+      "method": "extracted"
+    },
+    {
+      "field": "links",
+      "source": "resume.txt",
+      "method": "extracted"
+    },
+    {
+      "field": "links",
+      "source": "resume.txt",
+      "method": "extracted"
+    },
+    {
+      "field": "links",
+      "source": "resume.txt",
+      "method": "extracted"
+    },
+    {
+      "field": "experience",
+      "source": "resume.txt",
+      "method": "extracted"
+    },
+    {
+      "field": "experience",
+      "source": "resume.txt",
+      "method": "extracted"
+    },
+    {
+      "field": "education",
+      "source": "resume.txt",
+      "method": "extracted"
+    },
+    {
+      "field": "full_name",
+      "source": "sample.csv",
+      "method": "extracted"
+    },
+    {
+      "field": "headline",
+      "source": "sample.csv",
+      "method": "extracted"
+    },
+    {
+      "field": "years_experience",
+      "source": "sample.csv",
+      "method": "extracted"
+    },
+    {
+      "field": "location.city",
+      "source": "sample.csv",
+      "method": "extracted"
+    },
+    {
+      "field": "location.region",
+      "source": "sample.csv",
+      "method": "extracted"
+    },
+    {
+      "field": "location.country",
+      "source": "sample.csv",
+      "method": "extracted"
+    }
+  ],
+  "overall_confidence": 0.73
+}

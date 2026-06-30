@@ -1,0 +1,34 @@
+Priyanshu Sharma
+
+Software Engineer
+
+Email:
+priyanshu@gmail.com
+
+Phone:
+9876543210
+
+Skills:
+Python
+FastAPI
+NodeJS
+MongoDB
+ReactJS
+
+Experience
+
+Software Engineer
+Google
+Jan 2023 - Present
+
+Education
+
+B.Tech CSE
+ABC University
+2019 - 2023
+
+Github:
+https://github.com/priyanshu
+
+LinkedIn:
+https://linkedin.com/in/priyanshu
